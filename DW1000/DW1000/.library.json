@@ -1,0 +1,46 @@
+{
+    "name": "DW1000", 
+    "repository": {
+        "url": "https://github.com/thotro/arduino-dw1000.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "timsp430", 
+        "titiva", 
+        "teensy", 
+        "freescalekinetis", 
+        "ststm32", 
+        "nordicnrf51", 
+        "nxplpc", 
+        "espressif", 
+        "siliconlabsefm32", 
+        "linux_arm", 
+        "native", 
+        "intel_arc32", 
+        "microchippic32"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "0.6", 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "Thomas Trojer", 
+            "url": "https://github.com/thotro", 
+            "email": null
+        }
+    ], 
+    "keywords": [
+        "wireless", 
+        "communication"
+    ], 
+    "exclude": [
+        "adapterBoard", 
+        "extras"
+    ], 
+    "id": 364, 
+    "description": "A library that offers functionality to use Decawave's DW1000 chips."
+}
