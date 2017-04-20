@@ -8,6 +8,7 @@
 
 LiquidCrystal_I2C lcd(0x3F,2,1,0,4,5,6,7);
 
+
 // #define BACKLIGHT_PIN     13
 
 void setup()
@@ -18,6 +19,7 @@ void setup()
   lcd.begin(16, 2);
   lcd.clear();
 
+
 }
 
 void loop()
@@ -25,7 +27,7 @@ void loop()
   lcd.setCursor(0,0);
   lcd.print("http://mklec.com");
   lcd.setCursor(0,1);
-  lcd.print("I2C Module Demo");
+  lcd.print("I2C BLAHH Demo");
   delay(1000);
   lcd.autoscroll();
 }

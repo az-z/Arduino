@@ -21,6 +21,8 @@
 #include <SPI.h>
 #include <DW1000.h>
 // #include <Arduino.h>
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
 
 // connection pins
 const uint8_t PIN_RST = 9; // reset pin
@@ -33,6 +35,7 @@ volatile boolean sentAck = false;
 volatile unsigned long delaySent = 0;
 int sentNum = 0;
 DW1000Time sentTime;
+LiquidCrystal_I2C lcd(0x3F,2,1,0,4,5,6,7);
 
 
 void handleSent() {
@@ -57,7 +60,23 @@ void transmitter() {
 
 void setup() {
   // DEBUG monitoring
+  delay(5000);
   Serial.begin(9600);
+  lcd.setBacklightPin(3,POSITIVE);
+  lcd.begin(16, 2);
+  lcd.clear();
+  lcd.setCursor(0,0);
+
+  if (Serial.write(1) != 0) {
+    lcd.print("Serial == 0");
+    Serial.println(F("Serial supposedly is NOT attached."));
+    delay(4000);
+  } else {
+    Serial.println(F("### Serial is attached.###"));
+    lcd.println("Serial != 0 :) ");
+    lcd.noBacklight();
+    delay(5000);
+  }
   Serial.println(F("### DW1000-arduino-sender-test ###"));
   // initialize the driver
   DW1000.begin(PIN_IRQ, PIN_RST);
@@ -96,6 +115,7 @@ void loop() {
   sentAck = false;
   // update and print some information about the sent message
   Serial.print("ARDUINO delay sent [ms] ... "); Serial.println(millis() - delaySent);
+  // lcd.println("ARDUINO delay sent [ms] ... "); lcd.println((millis() - delaySent);
   DW1000Time newSentTime;
   DW1000.getTransmitTimestamp(newSentTime);
   Serial.print("Processed packet ... #"); Serial.println(sentNum);

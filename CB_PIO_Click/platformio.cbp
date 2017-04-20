@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CB_PIO_Click" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<MakeCommands>
+			<Build command="/bin/platformio -f -c codeblocks run" />
+			<CompileFile command="/bin/platformio -f -c codeblocks run" />
+			<Clean command="/bin/platformio -f -c codeblocks run -t clean" />
+			<DistClean command="/bin/platformio -f -c codeblocks run -t clean" />
+			<AskRebuildNeeded command="1" />
+			<SilentBuild command="/bin/platformio -f -c codeblocks run &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="Debug">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<Option parameters="-f -c codeblocks run -t upload" />
+				<Option host_application="/bin/platformio" />
+				<Option run_host_application_in_terminal="1" />
+				<MakeCommands>
+					<Build command="/bin/platformio -f -c codeblocks run" />
+					<CompileFile command="/bin/platformio -f -c codeblocks run" />
+					<Clean command="/bin/platformio -f -c codeblocks run -t clean" />
+					<DistClean command="/bin/platformio -f -c codeblocks run -t clean" />
+					<AskRebuildNeeded command="1" />
+					<SilentBuild command="/bin/platformio -f -c codeblocks run &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="Release">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<Option parameters="-f -c codeblocks run -t upload" />
+				<Option host_application="/bin/platformio" />
+				<Option run_host_application_in_terminal="1" />
+				<MakeCommands>
+					<Build command="/bin/platformio -f -c codeblocks run" />
+					<CompileFile command="/bin/platformio -f -c codeblocks run" />
+					<Clean command="/bin/platformio -f -c codeblocks run -t clean" />
+					<DistClean command="/bin/platformio -f -c codeblocks run -t clean" />
+					<AskRebuildNeeded command="1" />
+					<SilentBuild command="/bin/platformio -f -c codeblocks run &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DF_CPU=16000000L" />
+			<Add option="-DPLATFORMIO=021102" />
+			<Add option="-DARDUINO_ARCH_AVR" />
+			<Add option="-DARDUINO_AVR_UNO" />
+			<Add option="-DARDUINO=10608" />
+			<Add option="-D__AVR_ATmega328P__" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/cores/arduino" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/variants/standard" />
+			<Add directory="/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_PIO_Click/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Bridge/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/EEPROM/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Esplora/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Ethernet/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Firmata" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/GSM/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/HID/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Keyboard/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/LiquidCrystal/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Mouse/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/RobotIRremote/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Robot_Control/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Robot_Motor/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/SD/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/SPI/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Scheduler/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Servo/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/SoftwareSerial/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/SpacebrewYun/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Stepper/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/TFT/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Temboo/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/USBHost/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/WiFi/src" />
+			<Add directory="/home/az/.platformio/packages/framework-arduinoavr/libraries/Wire/src" />
+			<Add directory="/home/az/.platformio/packages/toolchain-atmelavr/avr/include" />
+			<Add directory="/home/az/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.8.1/include" />
+			<Add directory="/home/az/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.8.1/include-fixed" />
+		</Compiler>
+		<Unit filename="lib/NewliquidCrystal/FastIO.cpp" />
+		<Unit filename="lib/NewliquidCrystal/FastIO.h" />
+		<Unit filename="lib/NewliquidCrystal/I2CIO.cpp" />
+		<Unit filename="lib/NewliquidCrystal/I2CIO.h" />
+		<Unit filename="lib/NewliquidCrystal/LCD.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LCD.h" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal.h" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_I2C.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_I2C.h" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_I2C_ByVac.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_I2C_ByVac.h" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SI2C.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SI2C.h" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SR.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SR.h" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SR1W.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SR1W.h" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SR2W.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SR2W.h" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SR3W.cpp" />
+		<Unit filename="lib/NewliquidCrystal/LiquidCrystal_SR3W.h" />
+		<Unit filename="lib/NewliquidCrystal/SI2CIO.cpp" />
+		<Unit filename="lib/NewliquidCrystal/SI2CIO.h" />
+		<Unit filename="lib/NewliquidCrystal/SoftI2CMaster.h" />
+		<Unit filename="lib/NewliquidCrystal/thirdparty libraries/SoftI2CMaster/SoftI2CMaster.h" />
+		<Unit filename="lib/NewliquidCrystal/thirdparty libraries/SoftI2CMaster/examples/TSL2561Soft/TSL2561Soft.h" />
+		<Unit filename="lib/NewliquidCrystal/thirdparty libraries/SoftI2CMaster_/SoftI2CMaster.cpp" />
+		<Unit filename="lib/NewliquidCrystal/thirdparty libraries/SoftI2CMaster_/SoftI2CMaster.h" />
+		<Unit filename="lib/readme.txt" />
+		<Unit filename="platformio.ini" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
