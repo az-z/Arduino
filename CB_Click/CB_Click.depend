@@ -1,0 +1,552 @@
+# depslib dependency file v1.0
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/CDC.cpp
+	<CDC.cpp>
+
+1462871910 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/CDC.cpp
+	"USBAPI.h"
+	<avr/wdt.h>
+	<util/atomic.h>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/USBAPI.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"Arduino.h"
+	"USBDesc.h"
+	"USBCore.h"
+
+1462871910 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Arduino.h
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<math.h>
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"USBAPI.h"
+	"pins_arduino.h"
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/binary.h
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/WCharacter.h
+	<ctype.h>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/WString.h
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1462871910 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/HardwareSerial.h
+	<inttypes.h>
+	"Stream.h"
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Stream.h
+	<inttypes.h>
+	"Print.h"
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Printable.h
+	<stdlib.h>
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/variants/standard/pins_arduino.h
+	<avr/pgmspace.h>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/USBDesc.h
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/USBCore.h
+	"USBAPI.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/HardwareSerial.cpp
+	<HardwareSerial.cpp>
+
+1462871910 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	"Arduino.h"
+	"HardwareSerial.h"
+	"HardwareSerial_private.h"
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h
+	"wiring_private.h"
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/wiring_private.h
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	<stdarg.h>
+	"Arduino.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/HardwareSerial0.cpp
+	<HardwareSerial.h>
+	<HardwareSerial0.cpp>
+
+1462871910 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
+	"Arduino.h"
+	"HardwareSerial.h"
+	"HardwareSerial_private.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/HardwareSerial1.cpp
+	<HardwareSerial.h>
+	<HardwareSerial1.cpp>
+
+1462871910 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
+	"Arduino.h"
+	"HardwareSerial.h"
+	"HardwareSerial_private.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/HardwareSerial2.cpp
+	<HardwareSerial.h>
+	<HardwareSerial2.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
+	"Arduino.h"
+	"HardwareSerial.h"
+	"HardwareSerial_private.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/HardwareSerial3.cpp
+	<HardwareSerial.h>
+	<HardwareSerial3.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
+	"Arduino.h"
+	"HardwareSerial.h"
+	"HardwareSerial_private.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/HID.cpp
+	<HID.cpp>
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/HID/src/HID.cpp
+	"HID.h"
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/HID/src/HID.h
+	<stdint.h>
+	<Arduino.h>
+	"PluggableUSB.h"
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/PluggableUSB.h
+	"USBAPI.h"
+	<stdint.h>
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/IPAddress.cpp
+	<IPAddress.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/IPAddress.cpp
+	<Arduino.h>
+	<IPAddress.h>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/IPAddress.h
+	<stdint.h>
+	"Printable.h"
+	"WString.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/main.cpp
+	<main.cpp>
+	<hooks.c>
+	<abi.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/main.cpp
+	<Arduino.h>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/hooks.c
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/abi.cpp
+	<stdlib.h>
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/new.cpp
+	<new.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/new.cpp
+	<stdlib.h>
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/Print.cpp
+	<Print.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Print.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"Arduino.h"
+	"Print.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/Stream.cpp
+	<Stream.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Stream.cpp
+	"Arduino.h"
+	"Stream.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/Tone.cpp
+	<Tone.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Tone.cpp
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	"Arduino.h"
+	"pins_arduino.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/USBCore.cpp
+	<USBCore.cpp>
+	<PluggableUSB.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/USBCore.cpp
+	"USBAPI.h"
+	"PluggableUSB.h"
+	<stdlib.h>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp
+	"USBAPI.h"
+	"PluggableUSB.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/WInterrupts.c
+	<WInterrupts.c>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/WInterrupts.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	<stdio.h>
+	"wiring_private.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/wiring.c
+	<wiring.c>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/wiring.c
+	"wiring_private.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/wiring_analog.c
+	<wiring_analog.c>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/wiring_analog.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/wiring_digital.c
+	<wiring_digital.c>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/wiring_digital.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/wiring_pulse.c
+	<wiring_pulse.c>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/wiring_pulse.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/wiring_pulse_asm.S
+	<wiring_pulse.S>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/wiring_pulse.S
+	<avr/io.h>
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/wiring_shift.c
+	<wiring_shift.c>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/wiring_shift.c
+	"wiring_private.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/WMath.cpp
+	<WMath.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/WMath.cpp
+	"stdlib.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/cores/WString.cpp
+	<WString.cpp>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/WString.cpp
+	"WString.h"
+
+1479355185 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/libraries/libraries.cpp
+	<Arduino.h>
+	"Dhcp.cpp"
+	"Dns.cpp"
+	"Ethernet.cpp"
+	"EthernetClient.cpp"
+	"EthernetServer.cpp"
+	"EthernetUdp.cpp"
+	"socket.cpp"
+	"w5100.cpp"
+	"LiquidCrystal.cpp"
+	"SD.cpp"
+	"Sd2Card.cpp"
+	"SdFile.cpp"
+	"SdVolume.cpp"
+	"File.cpp"
+	"Servo.cpp"
+	"SoftwareSerial.cpp"
+	"SPI.cpp"
+	"Stepper.cpp"
+	"Wire.cpp"
+	"twi.c"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/Dhcp.cpp
+	"utility/w5100.h"
+	<string.h>
+	<stdlib.h>
+	"Dhcp.h"
+	"Arduino.h"
+	"utility/util.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/utility/w5100.h
+	<SPI.h>
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/SPI/src/SPI.h
+	<Arduino.h>
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/Dhcp.h
+	"EthernetUdp.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/EthernetUdp.h
+	<Udp.h>
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Udp.h
+	<Stream.h>
+	<IPAddress.h>
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/utility/util.h
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/Dns.cpp
+	"utility/w5100.h"
+	"EthernetUdp.h"
+	"utility/util.h"
+	"Dns.h"
+	<string.h>
+	"Arduino.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/Dns.h
+	<EthernetUdp.h>
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/Ethernet.cpp
+	"utility/w5100.h"
+	"Ethernet.h"
+	"Dhcp.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/Ethernet.h
+	<inttypes.h>
+	"IPAddress.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+	"Dhcp.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/EthernetClient.h
+	"Arduino.h"
+	"Print.h"
+	"Client.h"
+	"IPAddress.h"
+
+1462871910 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Client.h
+	"Print.h"
+	"Stream.h"
+	"IPAddress.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/EthernetServer.h
+	"Server.h"
+
+1462871911 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/cores/arduino/Server.h
+	"Print.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/EthernetClient.cpp
+	"utility/w5100.h"
+	"utility/socket.h"
+	"string.h"
+	"Arduino.h"
+	"Ethernet.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+	"Dns.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/utility/socket.h
+	"utility/w5100.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/EthernetServer.cpp
+	"utility/w5100.h"
+	"utility/socket.h"
+	"string.h"
+	"Ethernet.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/EthernetUdp.cpp
+	"utility/w5100.h"
+	"utility/socket.h"
+	"Ethernet.h"
+	"Udp.h"
+	"Dns.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/utility/socket.cpp
+	"w5100.h"
+	"socket.h"
+
+1462871915 /home/az/bin/arduino-1.6.9/libraries/Ethernet/src/utility/w5100.cpp
+	<stdio.h>
+	<string.h>
+	"w5100.h"
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/LiquidCrystal/src/LiquidCrystal.cpp
+	"LiquidCrystal.h"
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	"Arduino.h"
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/LiquidCrystal/src/LiquidCrystal.h
+	<inttypes.h>
+	"Print.h"
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/SD.cpp
+	"SD.h"
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/SD.h
+	<Arduino.h>
+	<utility/SdFat.h>
+	<utility/SdFatUtil.h>
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/SdFat.h
+	<avr/pgmspace.h>
+	"Sd2Card.h"
+	"FatStructs.h"
+	"Print.h"
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/Sd2Card.h
+	"Sd2PinMap.h"
+	"SdInfo.h"
+	<Arduino.h>
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/Sd2PinMap.h
+	<Arduino.h>
+	<avr/io.h>
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/SdInfo.h
+	<stdint.h>
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/FatStructs.h
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/SdFatUtil.h
+	<Arduino.h>
+	<avr/pgmspace.h>
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/Sd2Card.cpp
+	<Arduino.h>
+	"Sd2Card.h"
+	<SPI.h>
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/SdFile.cpp
+	"SdFat.h"
+	<avr/pgmspace.h>
+	<Arduino.h>
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/utility/SdVolume.cpp
+	"SdFat.h"
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/SD/src/File.cpp
+	<SD.h>
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/Servo/src/avr/Servo.cpp
+	<avr/interrupt.h>
+	<Arduino.h>
+	"Servo.h"
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	<Arduino.h>
+	<SoftwareSerial.h>
+	<util/delay_basic.h>
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.h
+	<inttypes.h>
+	<Stream.h>
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/SPI/src/SPI.cpp
+	"SPI.h"
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/Stepper/src/Stepper.cpp
+	"Arduino.h"
+	"Stepper.h"
+
+1462871916 /home/az/bin/arduino-1.6.9/libraries/Stepper/src/Stepper.h
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/Wire/src/Wire.cpp
+	<stdlib.h>
+	<string.h>
+	<inttypes.h>
+	"utility/twi.h"
+	"Wire.h"
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/Wire/src/utility/twi.h
+	<inttypes.h>
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/Wire/src/Wire.h
+	<inttypes.h>
+	"Stream.h"
+
+1462871913 /home/az/bin/arduino-1.6.9/hardware/arduino/avr/libraries/Wire/src/utility/twi.c
+	<math.h>
+	<stdlib.h>
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<compat/twi.h>
+	"Arduino.h"
+	"pins_arduino.h"
+	"twi.h"
+
+1433963806 /home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/libraries/NewliquidCrystal/LiquidCrystal.cpp
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	<WProgram.h>
+	<Arduino.h>
+	"LiquidCrystal.h"
+
+1433963806 /home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/libraries/NewliquidCrystal/LiquidCrystal.h
+	<inttypes.h>
+	"LCD.h"
+	"FastIO.h"
+
+1433963806 /home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/libraries/NewliquidCrystal/LCD.h
+	<WProgram.h>
+	<Arduino.h>
+	<avr/pgmspace.h>
+	<inttypes.h>
+	<Print.h>
+
+1443891236 /home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/libraries/NewliquidCrystal/FastIO.h
+	<WProgram.h>
+	<Arduino.h>
+	<pins_arduino.h>
+	<inttypes.h>
+	<util/atomic.h>
+
+1479619407 source:/home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/sketch.cpp
+	<Arduino.h>
+	<Wire.h>
+	"LiquidCrystal_I2C.h"
+
+1433963806 /home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/libraries/NewliquidCrystal/LiquidCrystal_I2C.h
+	<inttypes.h>
+	<Print.h>
+	"I2CIO.h"
+	"LCD.h"
+
+1433963806 /home/az/Dropbox/work/Arduino/Sketches/Examples/CB_Click/libraries/NewliquidCrystal/I2CIO.h
+	<inttypes.h>
+

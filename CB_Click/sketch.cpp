@@ -1,0 +1,48 @@
+#include <Arduino.h>
+#include <Wire.h>
+//#include <NewliquidCrystal/LiquidCrystal_I2C.h>
+//#include <NewliquidCrystal/LCD.h>
+#include <inttypes.h>
+#include <Print.h>
+
+#include <NewliquidCrystal/I2CIO.h>
+#include <NewliquidCrystal/LCD.h>
+
+
+class LiquidCrystal_I2C : public LCD
+{
+public:
+   LiquidCrystal_I2C (uint8_t lcd_Addr);
+   void setBacklight ( uint8_t value );
+private:
+   int  init();
+};
+
+LiquidCrystal_I2C abc(000);
+
+
+
+
+
+
+//
+//LiquidCrystal_I2C lcd(0x3F,2,1,0,4,5,6,7) ;
+//LiquidCrystal_I2C lcd1(0x3F,2,1,0,4,5,6,7);
+
+
+
+void setup() {
+    // initialize the digital pin as an output.
+    // Pin 13 has an LED connected on most Arduino boards:
+    pinMode(13, OUTPUT);
+    double dbl ;
+
+
+}
+
+void loop() {
+    digitalWrite(13, HIGH);   // set the LED on
+    delay(1000);              // wait for a second
+    digitalWrite(13, LOW);    // set the LED off
+    delay(1000);              // wait for a second
+}
