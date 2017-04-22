@@ -28,6 +28,13 @@
   /* The following code will only run ONCE --------------
   ---Press the reset button on the Arduino to run again-- */
 
+  for (int i=0; i<5;i++){
+    digitalWrite(ledPin, LOW);//Turn LED OFF
+    delay(200);
+    digitalWrite(ledPin, HIGH);//Turn LED OFF
+    delay(200);
+  }
+
   while(analogRead(rfReceivePin)<1){
       //Wait here until a LOW signal is received
       startTime=micros();  //Update start time with every cycle.
