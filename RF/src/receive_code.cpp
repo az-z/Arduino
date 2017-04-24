@@ -42,6 +42,15 @@
   digitalWrite(ledPin, HIGH);  //Turn LED ON
 
 
+/*
+  Based on the Saleae observations the remote is sending 11 series of the
+  same(?) sequences in under .3s . The time between the sequences is 5.67ms
+  The approach here is to stop listening once the time exceeded that limit
+
+
+*/
+
+
   //Read and store the rest of the signal into the storedData array
   for(int i=0; i<dataSize; i=i+2){
 
