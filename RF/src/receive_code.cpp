@@ -47,7 +47,6 @@
   same(?) sequences in under .3s . The time between the sequences is 5.67ms
   The approach here is to stop listening once the time exceeded that limit
 
-
 */
 
 
