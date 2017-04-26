@@ -46,6 +46,9 @@
   Based on the Saleae observations the remote is sending 11 series of the
   same(?) sequences in under .3s . The time between the sequences is 5.67ms
   The approach here is to stop listening once the time exceeded that limit
+Based on the data from the previous runs, there seemd to be a constant noise
+detected as LOW/HIGH. thus i need to somehow distinguish between that noise and
+the sequences
 
 */
 
