@@ -9,10 +9,10 @@ const bool OFF = false;
 // Why i can't move these 2 lines into the class?
 //Actually a normal person would inherit this class and add timings as i do with Socket_t
 const int DATA_PIN = 4;
-Outlet outlet(DATA_PIN); //  make a new outlet instance with
+// Outlet outlet(DATA_PIN); //  make a new outlet instance with
 
 
-class Socket_t {
+class Socket_t: public Outlet{
 protected:
   int  Channel;
   bool State; // current state of the Socket_t
@@ -27,14 +27,15 @@ public:
   Socket_t (int ch , bool state, int8_t Hour){
     Channel = ch;
     State = state;
-    outlet.toggle(Channel, State);
+    Outlet::Outlet(DATA_PIN);
+    toggle(Channel, State);
     DurationMillSecs = Hour*60000; //in minutes for testing
     prevMillSecs = 0;
   };
 void Update(unsigned long currMills) {
   if (currMills - prevMillSecs >= DurationMillSecs) {
     State = (State == ON)? OFF:ON; // Switch the State after current time is over Dur
-    outlet.toggle(Channel, State);
+    toggle(Channel, State);
     prevMillSecs=currMills;
   };
 };
