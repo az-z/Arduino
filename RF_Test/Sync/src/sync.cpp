@@ -38,7 +38,7 @@ const int CHANNEL_MAX = 2; // max range of channels
 const bool ON = true;
 const bool OFF = false;
 
-const int CHANNEL = 1;  // change this to the channel you'd like to
+const int CHANNEL = 2;  // change this to the channel you'd like to
                         //  sync your outlet to (1-10)
 
 void setup() {

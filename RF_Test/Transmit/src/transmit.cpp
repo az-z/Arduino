@@ -32,8 +32,6 @@ public:
   };
 void Update(unsigned long currMills) {
   if (currMills - prevMillSecs >= DurationMillSecs) {
-    // Serial.println("currMills - "); Serial.println(currMills);
-    // Serial.println("prevMillSecs - ");Serial.println(prevMillSecs);
     State = (State == ON)? OFF:ON; // Switch the State after current time is over Dur
     outlet.toggle(Channel, State);
     prevMillSecs=currMills;
