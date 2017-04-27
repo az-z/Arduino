@@ -7,12 +7,13 @@ const bool ON = true;
 const bool OFF = false;
 
 // Why i can't move these 2 lines into the class?
+//Actually a normal person would inherit this class and add timings as i do with Socket_t
 const int DATA_PIN = 4;
 Outlet outlet(DATA_PIN); //  make a new outlet instance with
 
 
 class Socket_t {
-private:
+protected:
   int  Channel;
   bool State; // current state of the Socket_t
   // long OnTime; // time to turn it on
@@ -37,6 +38,9 @@ void Update(unsigned long currMills) {
     prevMillSecs=currMills;
   };
 };
+bool getState() {
+  return State;
+};
 };
 
 Socket_t Lamp(1,ON,1);
@@ -50,35 +54,16 @@ void setup(){
    Here i'll magically setup the Sockets per channel. For now i pair them
    before runing this program
    */
-
 }
 
 void loop(){
   pinMode(ledPin, HIGH);
   Serial.println("Waiting 10 secs");
   delay(10000);
-  // unsigned long mils = millis();
-  Lamp.Update(millis());
-  Vent.Update(millis());
+  // Lamp.Update(millis());
+  // if (Lamp.getState()) { // turn Vent only if the Lamp is on
+  //   Vent.Update(millis());
+  // }
 
-  // outlet.toggle(1, ON); //  turn ch1 on
-  // delay(1500);
-  //
-  // pinMode(ledPin, LOW);
-  // outlet.toggle(1, OFF);
-  // delay(500);
+
 }
-
- // void loop(){
- //   data=analogRead(rfReceivePin);    //listen for data on Analog pin 0
- //
- //    if(data>upperThreshold){
- //     digitalWrite(ledPin, LOW);   //If a LOW signal is received, turn LED OFF
- //     Serial.println(data);
- //   }
- //
- //   if(data<lowerThreshold){
- //     digitalWrite(ledPin, HIGH);   //If a HIGH signal is received, turn LED ON
- //     Serial.println(data);
- //   }
- // }
