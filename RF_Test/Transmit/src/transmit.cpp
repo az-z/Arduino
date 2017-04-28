@@ -6,9 +6,6 @@
 const bool ON = true;
 const bool OFF = false;
 
-// Why i can't move these 2 lines into the class?
-// Actually a normal person would inherit this class and add timings as i do
-// with Socket_t
 const int8_t DataPin = 4;
 // Outlet outlet(DATA_PIN); //  make a new outlet instance with
 
@@ -19,18 +16,18 @@ protected:
   // long OnTime; // time to turn it on
   // long OffTime; // time to turn it off
 
-  unsigned long DurationMillSecs; // = Hour*120000;//lets pass 1 hour and make
-                                  // it into 2 minutes
-  // unsigned long const DurationMillSecs = 50000;//43200000; //12*60*60*1000
-  // duration of the 12 hours
-  // on / 12 hours off cycle in milisecs
+  // lets have 12 hour intervals. Converting into milisecs
+  unsigned long IntervalMilSecs = 12 * 60 * 60 * 1000;
+  // unsigned long const DurationMillSecs = 43200000 ; //12*60*60*1000
+
   unsigned long PrevMillSecs; // the previous value of the call to mills()
 public:
   Socket_t(int ch, bool state, int8_t Hour, int DPin) : Outlet(DPin) {
     Channel = ch;
     State = state;
     toggle(Channel, State);
-    DurationMillSecs = Hour * 60000; // in minutes for testing
+    // DurationMillSecs = Hour * 60000; // in minutes for testing
+    IntervalMilSecs = Hour * 360000; // in milisecs
     PrevMillSecs = 0;
   };
   void SetState(bool St) {
@@ -39,7 +36,7 @@ public:
   };
   bool getState() { return State; };
   void Update(unsigned long currMills) {
-    if (currMills - PrevMillSecs >= DurationMillSecs) {
+    if (currMills - PrevMillSecs >= IntervalMilSecs) {
       State = (State == ON)
                   ? OFF
                   : ON; // Switch the State after current time is over Dur
@@ -64,12 +61,11 @@ void setup() {
 }
 
 void loop() {
-  // pinMode(ledPin, HIGH);
-  delay(10000);
-  timestop += 10000;
+  delay(180000); // 30 minutes delay
+  timestop += 180000;
   Serial.print("Waited : ");
-  Serial.print(timestop / 1000);
-  Serial.println(" s");
+  Serial.print(timestop / 60000); // convert to minutes
+  Serial.println(" minutes");
   Lamp.Update(millis());
   if (Lamp.getState()) { // turn Vent only if the Lamp is on
     Vent.Update(millis());
