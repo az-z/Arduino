@@ -1,0 +1,16 @@
+To cancel all pairings of the outlet so that no remote or button will control it, please follow these
+instructions:
+
+1) Remove the outlet from the wall/power socket
+2) Press and hold the Learning button
+3) Place the outlet back into the wall/power socket while still holding the Learning button
+4) Hold the button for 5 seconds or until the light begins to flash
+5) You will see the red light flash rapidly a few times and then stop signifying the outlet has been reset
+
+To reprogram the remote control transmitter and socket receiver, please follow the instructions below:
+
+1) Plug the outlet switch into a socket and turn the power on
+2) Press and hold the learning button on the right side of the outlet until the LED indicator begins to flash
+3) Release the learning button and then press the desired “on” or “off” button on the remote
+4) Programming is successful when the LED indicator stops flashing
+5) The remote is now ready to use and will work with the outlet it is programmed with
